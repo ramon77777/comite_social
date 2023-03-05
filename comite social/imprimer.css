@@ -1,0 +1,139 @@
+body {
+	color: royalblue;
+	position: relative;
+
+	left: 20px;
+	display: flex;
+	flex-direction: column;
+	border: 3px solid royalblue;
+	width: 1200px;
+	height: 930px;
+	top: -10px;
+	
+}
+
+.tete {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	position: relative;
+	top: -18px;
+}
+.a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.image {
+	width: 120px;
+	position: relative;
+	top: -10px;
+	
+}
+
+.comite {
+	position: relative;
+	top: -45px;
+}
+.tete_text1 {
+	position: relative;
+	top: -76px;
+}
+
+.c {
+	position: relative;
+	top: -34px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.b {
+	border: 2px double royalblue;
+	padding: 7px;
+	position: relative;
+	top: 120px;
+}
+
+.souscripteur {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: -90px;
+	position: relative;
+	left: 110px;
+	top: -110px;
+}
+
+.souscripteur p, .souscripteur h2 {
+	margin-bottom: -10px;
+}
+
+.sou {
+	border-bottom:2px solid royalblue;
+	width: 188px;
+}
+
+table, td, th, tr {
+	border: 2px solid royalblue;
+	border-collapse: collapse;
+	padding: 7px 20px;
+}
+
+.tableau1, .tableau2 {
+	position: relative;
+	margin-bottom: 10px;
+	left: 110px;
+	width: 1000px;
+}
+
+.t1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+.t2 {
+	position: relative;
+	width: 300px;
+}
+
+.beneficiaire {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: -16px;
+}
+
+.nb {
+	position: relative;
+	top: -20px;
+	left: 110px;
+}
+
+.bas {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: -35px;
+}
+.bas1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.bas2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: relative;
+	top: -16px;
+}
+
+
+@media print {
+	.formulaire {
+		display: none;
+	}
+}
